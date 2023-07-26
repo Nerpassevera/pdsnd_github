@@ -18,12 +18,10 @@ Make sure you have the following software installed:
 + `chicago.csv`: Data file containing bikeshare data for Chicago.
 + `new_york_city.csv`: Data file containing bikeshare data for New York City.
 + `washington.csv`: Data file containing bikeshare data for Washington.
++ `LICENSE`: The license file (MIT License) that outlines the terms and conditions for using this software.
 
 ## Data
 The data used in this project is sourced from three major cities: Chicago, New York City, and Washington. Each city has a separate data file with its respective name.
-
-## Authors
-Tatiana Trofimova
 
 ## Acknowledgments
 This project was created as part of a programming nanodegree course **Programming for Data Science with Python on Udacity**.\
