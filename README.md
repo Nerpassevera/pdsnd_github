@@ -28,3 +28,6 @@ Tatiana Trofimova
 ## Acknowledgments
 This project was created as part of a programming nanodegree course **Programming for Data Science with Python on Udacity**.\
 Special thanks to the creators of the pandas library for their contributions.
+
+## License
+MIT © Tatiana Trofimova
