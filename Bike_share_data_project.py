@@ -293,6 +293,12 @@ def row_data(df):
             key = input()
 
 def closing_message(email:str):
+    """
+    Prints a thank you message and invites users to provide suggestions or feedback via email.
+
+    :param email (str): current email address for users feedback
+    :return: None
+    """
     print("    Thank you for using our program!\n", 
           f"If you have any suggestions for the development of the project or feedback on its work,\n we will be glad to receive your appeals by e-mail at {email}!\n")
 
@@ -315,7 +321,7 @@ def main():
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
-            closing_message("bikeshare_data_explorer@imaginary_mail.com")
+            closing_message("bikeshare_data_explorer@imaginary_mail.com")  # THIS IS A PLACEHOLDER EMAIL! CHANGE IT TO THE CURRENT ONE!
             break
 
 
