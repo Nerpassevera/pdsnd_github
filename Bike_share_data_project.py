@@ -292,7 +292,9 @@ def row_data(df):
             y += rows_qty
             key = input()
 
-
+def closing_message(email:str):
+    print("    Thank you for using our program!\n", 
+          f"If you have any suggestions for the development of the project or feedback on its work,\n we will be glad to receive your appeals by e-mail at {email}!\n")
 
 
 def main():
@@ -313,6 +315,7 @@ def main():
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
+            closing_message("bikeshare_data_explorer@imaginary_mail.com")
             break
 
 
